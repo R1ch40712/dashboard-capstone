@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Pizza Sales</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav container">
+      <div class="title">
+        <img src="img/unduhan.png" alt="logo" />
+        <h1>Pizza Place Sales<br />Dashboard</h1>
+      </div>
+      <div class="total revenue">
+        <p>Total revenue</p>
+        <h6>$817,860</h6>
+      </div>
+      <div class="total orders">
+        <p>Total orders</p>
+        <h6>48,620</h6>
+      </div>
+    </div>
+    <section class="content">
+      <div class="container">
+        <div class="chart">
+          <h4>Percentage decrease On Weekends</h4>
+          <img src="img/pie 1.png" alt="Percentage decrease on Weekends" />
+        </div>
+        <div class="chart">
+          <h4>Percentage decrease On Weekends</h4>
+          <img src="img/pie 2.png" alt="Percentage decrease on Weekends" />
+        </div>
+      </div>
+    </section>
+    
+    <section class="filter">
+      <div class="container">
+        <div class="category dropdown">
+          <button onclick="categoryFunc()" class="dropbtn">Category</button>
+          <div id="category" class="dropdown-content">
+            <a href="#">Veggie</a>
+            <a href="#">Supreme</a>
+            <a href="#">Classic</a>
+            <a href="#">Chicken</a>
+          </div>
+        </div>
+        <div class="pizza_types dropdown">
+          <button onclick="categoryFunc()" class="dropbtn">Pizza_types</button>
+          <div id="category" class="dropdown-content">
+            <a href="#">Veggie</a>
+            <a href="#">Supreme</a>
+            <a href="#">Classic</a>
+            <a href="#">Chicken</a>
+          </div>
+        </div>
+        <div class="month dropdown">
+          <button onclick="categoryFunc()" class="dropbtn">Month</button>
+          <div id="category" class="dropdown-content">
+            <a href="#">Veggie</a>
+            <a href="#">Supreme</a>
+            <a href="#">Classic</a>
+            <a href="#">Chicken</a>
+          </div>
+        </div>
+        <div class="date dropdown">
+          <button onclick="categoryFunc()" class="dropbtn">Date</button>
+          <div id="category" class="dropdown-content">
+            <a href="#">Veggie</a>
+            <a href="#">Supreme</a>
+            <a href="#">Classic</a>
+            <a href="#">Chicken</a>
+          </div>
+        </div>
+        <div class="week dropdown">
+          <button onclick="categoryFunc()" class="dropbtn">Week</button>
+          <div id="category" class="dropdown-content">
+            <a href="#">Veggie</a>
+            <a href="#">Supreme</a>
+            <a href="#">Classic</a>
+            <a href="#">Chicken</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <div class="chart comparison">
+          <h4>Percentage decrease On Weekends</h4>
+          <img src="img/comparison 1.png" alt="Percentage decrease on Weekends" />
+        </div>
+        <div class="chart comparison">
+          <h4>Comparison of weekend and weekday sales</h4>
+          <img src="img/comparison 2.png" alt="Percentage decrease on Weekends" />
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="container">
+        <div class="chart revenue">
+          <h4>Total revenue by day</h4>
+          <img src="img/revenue 1.png" alt="Percentage decrease on Weekends" />
+        </div>
+        <div class="chart revenue">
+          <h4>Total revenue by month</h4>
+          <img src="img/revenue 2.png" alt="Percentage decrease on Weekends" />
+        </div>
+        <div class="chart revenue">
+          <h4>Total revenue by hour</h4>
+          <img src="img/revenue 2.png" alt="Percentage decrease on Weekends" />
+        </div>
+      </div>
+    </section>
+
+    <script src="interac.js"></script>
+  </body>
+</html>
