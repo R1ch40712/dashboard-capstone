@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 5px;
     padding: 0;
@@ -154,3 +157,50 @@ footer{
     color: #655f5f;
 }
 /* end footer */
+
+
+
+/* media query */
+
+/* @media screen and (max-width: 1366px){
+    html{
+        font-size: 75%;
+    }   
+} */
+@media screen and (max-width: 768px){
+    .nav{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .nav .title img {
+        width: 80px;
+        /* padding: 2px 5px 0; */
+    }
+    
+    .nav .title h1 {
+        font-size: 17px;
+        text-align: start;
+        margin-right: 50px;
+    }
+    .nav .total{
+        width: 150px;
+        height: 70px;
+        margin: 10px 7px;
+    }
+    .nav .total p{
+        font-size: 15px;
+    }
+    .nav .total h6{
+        font-size: 25px;
+    }
+    .filter{
+        display: none;
+    }
+
+    
+
+}
+@media screen and(max-width: 450px){
+
+}
