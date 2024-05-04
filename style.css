@@ -145,3 +145,11 @@ body{
     margin-right: 25px;
 }
 /* end revenue */
+
+/* footer */
+footer{
+    margin-left: 100px;
+    margin-top: -10px;
+    color: #655f5f;
+}
+/* end footer */
